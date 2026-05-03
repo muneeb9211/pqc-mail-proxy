@@ -7,7 +7,7 @@
 
 A transparent **post-quantum secure** email encryption proxy written in **~10,600 lines of Rust** across 58 source files. It operates between standard email clients (Thunderbird, Outlook, Apple Mail) and mail servers, providing **end-to-end encryption** using NIST-standardized post-quantum algorithms — without requiring any modifications to the email client or server infrastructure.
 
-> **Note:** This repository contains project documentation, architecture, and protocol design. The source code is maintained in a private repository. For access to the full codebase (e.g., for academic review or collaboration), please contact me at **amarsohail@protonmail.com**.
+> **Note:** The source code is currently kept private as a manuscript describing the design and implementation is in preparation for publication. This repository provides the full architectural overview, protocol specification, and cryptographic design. For access to the codebase (e.g., for academic review, peer evaluation, or collaboration), please contact **amarsohail@protonmail.com**.
 
 ---
 
