@@ -215,17 +215,43 @@ The encrypted body is packaged as a `keypact.enc` JSON attachment containing the
 
 ## References
 
-1. P. W. Shor, "Algorithms for quantum computation: discrete logarithms and factoring," *Proceedings 35th Annual Symposium on Foundations of Computer Science*, 1994.
+### Foundational Standards
 
-2. M. Marlinspike and T. Perrin, "The X3DH Key Agreement Protocol," Signal Foundation, 2016. Available: https://signal.org/docs/specifications/x3dh/
+1. National Institute of Standards and Technology, "Module-Lattice-Based Key-Encapsulation Mechanism Standard," **FIPS 203**, August 2024. Available: https://csrc.nist.gov/pubs/fips/203/final
 
-3. T. Perrin and M. Marlinspike, "The Double Ratchet Algorithm," Signal Foundation, 2016. Available: https://signal.org/docs/specifications/doubleratchet/
+2. National Institute of Standards and Technology, "Recommendation for Block Cipher Modes of Operation: Galois/Counter Mode (GCM) and GMAC," **SP 800-38D**, November 2007.
 
-4. National Institute of Standards and Technology, "Module-Lattice-Based Key-Encapsulation Mechanism Standard," FIPS 203, August 2024. Available: https://csrc.nist.gov/pubs/fips/203/final
+3. H. Krawczyk and P. Eronen, "HMAC-based Extract-and-Expand Key Derivation Function (HKDF)," **RFC 5869**, May 2010.
 
-5. National Institute of Standards and Technology, "Recommendation for Block Cipher Modes of Operation: Galois/Counter Mode (GCM) and GMAC," SP 800-38D, November 2007.
+### Protocol Specifications
 
-6. H. Krawczyk and P. Eronen, "HMAC-based Extract-and-Expand Key Derivation Function (HKDF)," RFC 5869, May 2010.
+4. T. Perrin and M. Marlinspike, "The Double Ratchet Algorithm," Signal Foundation, 2016. Available: https://signal.org/docs/specifications/doubleratchet/
+
+5. M. Marlinspike and T. Perrin, "The X3DH Key Agreement Protocol," Signal Foundation, 2016. Available: https://signal.org/docs/specifications/x3dh/
+
+### Formal Analysis and Security Proofs
+
+6. K. Cohn-Gordon, C. Cremers, B. Dowling, L. Garratt, and D. Stebila, "A Formal Security Analysis of the Signal Messaging Protocol," *Journal of Cryptology*, vol. 33, pp. 1914-1983, 2020.
+
+7. A. Dax, C. Cremers, and N. Medinger, "Keeping Up with the KEMs: Stronger Security Notions for KEMs and Automated Analysis of KEM-based Protocols," *ACM CCS*, 2024.
+
+8. C. Cremers and M. Zhao, "Secure Messaging with Strong Compromise Resilience, Temporal Privacy, and Immediate Decryption," *IEEE Symposium on Security and Privacy (S&P)*, 2024.
+
+9. C. Cremers, N. Medinger, and A. Naska, "Impossibility Results for Post-Compromise Security in Real-World Communication Systems," *IEEE Symposium on Security and Privacy (S&P)*, 2025.
+
+10. C. Cremers, C. Jacomme, and A. Naska, "Formal Analysis of Session-Handling in Secure Messaging: Lifting Security from Sessions to Conversations," *USENIX Security Symposium*, 2023.
+
+11. C. Cremers, C. Fontaine, and C. Jacomme, "A Logic and an Interactive Prover for the Computational Post-Quantum Security of Protocols," *IEEE Symposium on Security and Privacy (S&P)*, 2022.
+
+12. C. Cremers, A. Dax, C. Jacomme, and M. Zhao, "Automated Analysis of Protocols that use Authenticated Encryption: How Subtle AEAD Differences can impact Protocol Security," *USENIX Security Symposium*, 2023.
+
+### Background
+
+13. P. W. Shor, "Algorithms for quantum computation: discrete logarithms and factoring," *Proceedings 35th Annual Symposium on Foundations of Computer Science*, 1994.
+
+14. K. Cohn-Gordon, C. Cremers, L. Garratt, J. Millican, and K. Milner, "On Ends-to-Ends Encryption: Asynchronous Group Messaging with Strong Security Guarantees," *ACM CCS*, 2018.
+
+15. C. Cremers, J. Fairoze, B. Kiesl, and A. Naska, "Clone Detection in Secure Messaging: Improving Post-Compromise Security in Practice," *ACM CCS*, 2020.
 
 ---
 
