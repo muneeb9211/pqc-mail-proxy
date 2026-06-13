@@ -7,7 +7,7 @@
 
 A transparent **post-quantum secure** email encryption proxy written in **~10,600 lines of Rust** across 58 source files. It operates between standard email clients (Thunderbird, Outlook, Apple Mail) and mail servers, providing **end-to-end encryption** using NIST-standardized post-quantum algorithms — without requiring any modifications to the email client or server infrastructure.
 
-> **Note:** The source code is currently kept private as a manuscript describing the design and implementation is in preparation for publication. This repository provides the full architectural overview, protocol specification, and cryptographic design. For access to the codebase (e.g., for academic review, peer evaluation, or collaboration), please contact **amar.sohail@outlook.com**.
+> **Note:** The source code is currently kept private as a manuscript describing the design and implementation is in preparation for publication. This repository provides the full architectural overview, protocol specification, and cryptographic design. For access to the codebase (e.g., for academic review, peer evaluation, or collaboration), please contact **muneebahmad9211@gmail.com**.
 
 ---
 
@@ -270,8 +270,8 @@ The encrypted body is packaged as a `keypact.enc` JSON attachment containing the
 
 ## License
 
-Copyright (c) 2025-2026 Muhammad Amar Sohail. All rights reserved.
+Copyright (c) 2025-2026 Muneeb Ahmad. All rights reserved.
 
-This documentation is provided for informational and academic review purposes only. The source code is proprietary. For licensing inquiries or academic collaboration, contact **amar.sohail@outlook.com**.
+This documentation is provided for informational and academic review purposes only. The source code is proprietary. For licensing inquiries or academic collaboration, contact **muneebahmad9211@gmail.com**.
 
 This project was developed as an implementation of the KeyPact PQ-Mail Proxy Specification v1.3 (October 2025).
